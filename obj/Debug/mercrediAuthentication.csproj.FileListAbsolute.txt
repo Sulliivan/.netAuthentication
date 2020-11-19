@@ -125,3 +125,14 @@ C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\obj
 C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\obj\Debug\mercrediAuthentication.csproj.CopyComplete
 C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\obj\Debug\mercrediAuthentication.dll
 C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\obj\Debug\mercrediAuthentication.pdb
+C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\bin\SendGrid.dll
+C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\bin\StarkbankEcdsa.dll
+C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\bin\SendGrid.pdb
+C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\bin\SendGrid.xml
+C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\bin\Twilio.dll
+C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Sullivan\source\repos\mercrediAuthentication\mercrediAuthentication\bin\Twilio.xml

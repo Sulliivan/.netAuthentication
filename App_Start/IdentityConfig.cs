@@ -13,6 +13,8 @@ using Microsoft.Owin.Security;
 using mercrediAuthentication.Models;
 using SendGrid;
 using SendGrid.Helpers.Mail;
+using Twilio;
+using Twilio.Rest.Api.V2010.Account;
 
 namespace mercrediAuthentication
 {
@@ -42,6 +44,18 @@ namespace mercrediAuthentication
     {
         public Task SendAsync(IdentityMessage message)
         {
+            const string accountSID = @"ACb11ed11b8a7c718f21726e5205fa7291";
+            const string authToken = @"0e1a8b2f1532731698af7da00f4fa332";
+            TwilioClient.Init(accountSID, authToken);
+
+            // Contenu SMS
+            var sms = MessageResource.Create(
+                body: message.Body,
+                from: new Twilio.Types.PhoneNumber("+16073036838"),
+                to: new Twilio.Types.PhoneNumber(message.Destination)
+                ) ;
+
+
             // Connectez votre service SMS ici pour envoyer un message texte.
             return Task.FromResult(0);
         }
